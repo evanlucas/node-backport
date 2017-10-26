@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "branch-diff": "^1.5.1",
+    "help": "^3.0.2",
     "kittie": "^3.0.0",
+    "nopt": "^4.0.1",
     "read": "^1.0.7"
   },
   "devDependencies": {

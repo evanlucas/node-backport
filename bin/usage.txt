@@ -5,3 +5,7 @@ node-backport - Backport commits to node.js release lines
   options:
     -h, --help                    show help and usage
     -v, --version                 show version
+    -s, --source <branch>         set the source branch name
+    -t, --target <branch>         set the target branch name
+    --exclude-label               set the exclude-labels
+    --filter-release              filter release commits
