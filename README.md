@@ -14,6 +14,15 @@ $ npm install [-g] evanlucas/node-backport
 $ npm test
 ```
 
+## Example
+
+In nodejs/node:
+
+```bash
+$ git checkout -b v8.8.2-proposal
+$ node-backport -s master -t v8.8.2-proposal
+```
+
 ## Author
 
 Evan Lucas
