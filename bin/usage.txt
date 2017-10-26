@@ -1,0 +1,7 @@
+node-backport - Backport commits to node.js release lines
+
+  usage: node-backport [options]
+
+  options:
+    -h, --help                    show help and usage
+    -v, --version                 show version

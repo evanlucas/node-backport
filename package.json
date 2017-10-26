@@ -1,0 +1,30 @@
+{
+  "name": "node-backport",
+  "version": "1.0.0",
+  "description": "Backport commits to node.js release lines",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test --cov"
+  },
+  "dependencies": {
+    "branch-diff": "^1.5.1",
+    "kittie": "^3.0.0",
+    "read": "^1.0.7"
+  },
+  "devDependencies": {
+    "tap": "~5.7.2"
+  },
+  "license": "MIT",
+  "bin": {
+    "node-backport": "./bin/cmd.js"
+  },
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/node-backport"
+  },
+  "homepage": "https://github.com/evanlucas/node-backport",
+  "bugs": {
+    "url": "https://github.com/evanlucas/node-backport/issues"
+  }
+}
